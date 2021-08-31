@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cars {
+    width: 50%;
+    margin: auto;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 5px 0 0;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 5px 5px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin: 16px 0;
+}
+
+p {
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+    max-width: 150px;
+    margin-bottom: 12px;
+}
+
+.learn-more-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    font-size: 10px;
+}
+
+.learn-more-btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+    color: hsl(179, 100%, 13%);
+}
+
+.card {
+    padding: 30px;
+}
+
+img {
+    width: 40px;
+}
+
+footer {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+}
+
+footer p {
+    font-size: 0.6rem;
+    color: hsl(31, 77%, 52%);
+}
+
+@media screen and (min-width: 768px) {
+    .cars {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        height: 35%;
+    }
+    
+    .sedans {
+        border-radius: 5px 0 0 5px;
+    }
+
+    .luxury {
+        border-radius: 0 5px 5px 0;
+    }
+
+    .learn-more-btn {
+        margin-top: 30px;
+    }
+
+}
