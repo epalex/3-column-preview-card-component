@@ -99,3 +99,45 @@ footer {
     color: darkgrey;
     margin-top: 44px;
 }
+
+
+
+@media screen and (min-width: 992px) {
+    .container {
+        margin: unset;
+        width: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section {
+        height: 500px;
+        width: 310px;
+        padding-right: 45px;
+    }
+
+    .sedans {
+        border-radius: 8px 0 0 8px;
+    }
+
+    .luxury {
+        border-radius: 0 8px 8px 0;
+    }
+
+    section button {
+        margin-bottom: unset;
+        margin-top: 60px;
+    }
+
+    section p {
+        width: 100%;
+    }
+
+}
