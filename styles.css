@@ -100,6 +100,12 @@ footer {
     margin-top: 44px;
 }
 
+.learn-more-btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
 
 
 @media screen and (min-width: 992px) {
@@ -139,5 +145,4 @@ footer {
     section p {
         width: 100%;
     }
-
 }
