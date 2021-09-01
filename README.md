@@ -2,8 +2,8 @@
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/epalex/3-column-preview-card-component
+- Live Site URL: https://epalex.github.io/3-column-preview-card-component/
 
 ## Built with
 

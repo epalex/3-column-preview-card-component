@@ -28,6 +28,10 @@ body {
     border-radius: 0 0 8px 8px;
 }
 
+section {
+    padding-left: 49px;
+}
+
 section figure {
     padding-top: 48px;
 }
@@ -51,14 +55,47 @@ section p {
      color: #ffffff;
      opacity: 0.75;
      margin-bottom: 24px;
+     width: 80%;
 }
 
 section button {
     margin-bottom: 48px;
 }
 
-footer {
-    margin-top: 44px;
+.learn-more-btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #e28625;
+    padding: 12px 32px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    border: none;
 }
 
+.suv {
+    color: #006971;
+}
 
+.lux {
+    color: #004140;
+}
+
+footer a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.paminos {
+    color: tomato;
+    font-weight: 600;
+}
+
+footer {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    color: darkgrey;
+    margin-top: 44px;
+}
